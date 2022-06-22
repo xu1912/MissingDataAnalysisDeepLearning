@@ -70,8 +70,6 @@ for j in range(ns):
 	model = Sequential()
 	model.add(Dense(16, activation='relu'))
 	model.add(Dropout(0.4))
-	#model.add(Dense(32, activation='selu', kernel_initializer='lecun_normal'))
-	#model.add(Dropout(0.4))
 	model.add(Dense(16, activation='relu'))
 	model.add(Dropout(0.4))
 	model.add(Dense(16, activation='relu'))
